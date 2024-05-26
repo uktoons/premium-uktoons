@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 12px;
+    background-image: url('https://source.unsplash.com/1600x900/?music,concert'); 
+    background-position: center;
+   
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.cococontainer {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+   
+    
+   
+    
+
+
+.container {
+    background-color: rgba(83, 185, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.cocontainer {
+    background-color: rgba(158, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(8, 8, 8, 0.1);
+    text-align: center;
+    margin: 20px;
+}
+.title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.audio-player {
+    margin-bottom: 20px;
+    background-color: rgba(87, 0, 0, 0.5); /* Transparency effect */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+audio {
+    width: 100%;
+}
+
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .audio-player {
+        padding: 10px;
+    }
+}
