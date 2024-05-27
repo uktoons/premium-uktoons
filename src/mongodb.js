@@ -1,6 +1,6 @@
 const mongoose=require("mongoose")
 
-mongoose.connect("mongodb+srv://uktoonspro:Iamuktoons,081976@uktoons.9ru0ng2.mongodb.net/?retryWrites=true&w=majority&appName=uktoons/ukweb")
+mongoose.connect("mongodb+srv://uktoonspro:Iamuktoons,081976@uktoons.9ru0ng2.mongodb.net/?retryWrites=true&w=majority&appName=uktoons")
 
 .then(()=>{
     console.log("uk data base connected");
