@@ -28,8 +28,7 @@ const data={
     password:req.body.password,
     email:req.body.email
 }
-await collection.insertMany([data])
-
+await collection1.insertMany([data])
 res.render("home")
 })
 
